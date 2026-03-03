@@ -291,16 +291,50 @@ const experience = {
     {
       title: "Work",
       work: true,
+      // experiences: [
+
+      //   {
+      //     title: "Salesforce Developer",
+      //     company: "Cybage .",
+      //     company_url: "https://www.cybage.com/",
+      //     logo_path: "cybage_logo.png",
+      //     duration: "Aug 2022 - Present",
+      //     location: "Pune, MH, India",
+      //     descriptions: [
+      //       "I played a pivotal role in the development of our monitoring dashboard, ensuring seamless tracking of integration failures with a remarkable 30% increase in speed for our admin team. Moreover, my innovative UI enhancements not only heightened user engagement by 25% but also slashed bounce rates by 15%, ultimately accelerating our website launch timeline.",
+      //     ],
+      //     color: "#000000",
+      //   },
+      // ],
+    // },
       experiences: [
         {
           title: "Salesforce Developer",
-          company: "Cybage .",
-          company_url: "https://www.cybage.com/",
-          logo_path: "cybage_logo.png",
-          duration: "Aug 2022 - Present",
+          company: "TSYS Card Tech Services India LLP (A Global Payments Company)",
+          company_url: "https://www.globalpayments.com/",
+          logo_path: "gp_logo.png",
+          duration: "July 2024 - Present",
           location: "Pune, MH, India",
           descriptions: [
-            "I played a pivotal role in the development of our monitoring dashboard, ensuring seamless tracking of integration failures with a remarkable 30% increase in speed for our admin team. Moreover, my innovative UI enhancements not only heightened user engagement by 25% but also slashed bounce rates by 15%, ultimately accelerating our website launch timeline.",
+            "Led CPQ-to-LWC migration by redesigning legacy components into modular LWC architecture with centralized utility layers, reducing average load time from 20s to 3s.",
+            "Designed Scheduled Flow + Apex automation to deactivate users inactive for 90+ days, improving license utilization by ~18% and strengthening security compliance.",
+            "Optimized large-scale triggers across Lead, Account, Opportunity, and Contact objects, reducing Apex character usage from ~70k to ~25k (~65% reduction).",
+            "Implemented Custom Setting-based feature toggle framework to dynamically switch between legacy and optimized triggers, reducing deployment risk by ~30%.",
+            "Built scalable LWC validation framework using Lifecycle Hooks, Custom Events, nested components, and centralized utility modules."
+          ],
+          color: "#0A66C2",
+        },
+        {
+          title: "Salesforce Developer",
+          company: "Cybage Software Pvt Ltd",
+          company_url: "https://www.cybage.com/",
+          logo_path: "cybage_logo.png",
+          duration: "Aug 2022 - June 2024",
+          location: "Pune, MH, India",
+          descriptions: [
+            "Developed clean and efficient Apex Test Classes maintaining an average code coverage of 90%.",
+            "Designed and implemented a monitoring dashboard for integration logs, increasing admin traceability efficiency by 30%.",
+            "Proposed and implemented UI enhancements improving user engagement and reducing bounce rate, contributing to a 10% reduction in redundant code."
           ],
           color: "#000000",
         },
